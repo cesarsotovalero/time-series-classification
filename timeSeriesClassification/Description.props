@@ -1,0 +1,44 @@
+# Template Description file for a Weka package
+#
+# 
+
+# Package name (required)
+PackageName=timeSeriesClassification
+
+# Version (required)
+Version=1.0.1
+
+#Date
+Date=2013-06-26
+
+# Title (required)
+Title=Package with tools for time series classification.
+
+Category=Classification
+
+# Author (required)
+Author=César Soto Valero,Mabel Gonzalez, Yanet Rodriguez
+
+# Maintainer (required)
+Maintainer=UCLV
+
+# License (required)
+License=GPL 3.0
+
+# Description (required)
+Description=Implementing the DTW distance function for nearest neighbor search in time series classification. Implementing LB_Keogh lower bounding as an nearest neighbor algorithm for kNN to improve DTW distance search. Implementing an numerosity reduction filter to reduce the numerosity of time series.
+
+# Package URL for obtaining the package archive (required)
+PackageURL=http://10.12.16.221/repoweka/
+
+# URL for further information
+URL=http://10.12.16.221/repoweka/
+
+# Enhances various other packages ?
+# Enhances=packageName1,packageName2,...
+
+# Related to other packages?
+#Related=
+
+# Dependencies
+Depends=weka (>=3.7.1)
