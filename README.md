@@ -1,7 +1,8 @@
 # timeSeriesClassification
 A package for time series classification in Weka
 
-[![moreinformation](http://i.imgur.com/L88apDa.png)](https://www.researchgate.net/publication/290379731_Paquete_para_la_clasificacion_de_series_temporales_en_Weka)
+For more information, take a look at the paper: 
+**César Soto Valero, Mabel González Castellanos**: _A package for time series classification in Weka_ (CICCI' 2016) [![PDF](http://wwwimages.adobe.com/content/dam/acom/en/legal/images/badges/Adobe_PDF_file_icon_32x32.png)](https://www.researchgate.net/publication/290379731_Paquete_para_la_clasificacion_de_series_temporales_en_Weka)
 
 Weka is a powerful machine learning framework. However, it lacks of tools to handle time series data analysis. 
 
