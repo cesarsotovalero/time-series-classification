@@ -1,6 +1,6 @@
-# Time series classification in Weka
+<img src="https://cesarsotovalero.github.io/img/logos/TS-Classification_logo.svg" height="100px"  alt="TS-Classification"/>
 
-[Weka](https://www.cs.waikato.ac.nz/ml/weka) is a powerful machine learning framework. However, it lacks of tools to handle time series data analysis. **timeSeriesClassification** is a package for facilitating time series classification tasks in Weka. 
+[Weka](https://www.cs.waikato.ac.nz/ml/weka) is a powerful machine learning framework. However, it lacks of tools to handle time series data analysis. **TS-Classification** is a package for facilitating time series classification tasks in Weka. 
 
 This package implements the following functionalities: 
 
