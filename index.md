@@ -51,15 +51,15 @@ Load the train dataset `ECG5000_TRAIN.arff` in the Weka explorer.
 
 In the explorer, go to Classify and add `ECG5000_TEST.arff` file as the test set.
 
-![Add Test Set](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_test.png)
+![Add Test Set](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_test.png)
 
 Then, configure the classifier by selecting Lazy > Ibk > Choose > **DTWSearch**
 
-![DTWSearch](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_dtw.png)
+![DTWSearch](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_dtw.png)
 
 Now you can run the classifier with the **DTWDistance** function, you should obtain the following result:
 
-![DTWSearch Results](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_dtw_result.png)
+![DTWSearch Results](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_dtw_result.png)
 
 BTW, the accuracy using 1NN with the Euclidean Distance instead of DTW for this dataset is 92.2444%.
 
@@ -68,8 +68,8 @@ BTW, the accuracy using 1NN with the Euclidean Distance instead of DTW for this 
 For using the **NumerosityReduction** filter. In the Weka explorer go to Choose > weka > filters > supervised >
 instance > **NumerosityReduction** and select the percentage of instances to be removed
 
-![Weka Preprocess](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_preprocess.png)
+![Weka Preprocess](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_preprocess.png)
 
 After applying the filter with **percentageToRemove** = 50, the dataset will contain half of the original instances, while preserving the representativeness of each one of the classes for classification
 
-![Weka Preprocess](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_reduced.png)
+![Weka Preprocess](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_reduced.png)
