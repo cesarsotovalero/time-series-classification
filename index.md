@@ -47,7 +47,7 @@ Download the [ECG5000](http://www.timeseriesclassification.com/description.php?D
 
 Load the train dataset `ECG5000_TRAIN.arff` in the Weka explorer.
 
-![Weka Explorer](https://github.com/cesarsotovalero/cesarsotovalero.github.io/blob/master/img/posts/time_series_classification/weka_explorer.png)
+![Weka Explorer](https://cesarsotovalero.github.io/img/posts/time_series_classification/weka_explorer.png)
 
 In the explorer, go to Classify and add `ECG5000_TEST.arff` file as the test set.
 
