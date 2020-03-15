@@ -1,4 +1,14 @@
 ---
 ---
 
+$header-bg-color: #b82b1e;
+$header-bg-color-secondary: #d3907e;
+
+$body-link-color: #d3907e;
+$blockquote-text-color: #819198;
+
+$code-text-color: #494D4E;
+
+@import "{{ site.theme }}";
+
 @import 'jekyll-theme-cayman';
