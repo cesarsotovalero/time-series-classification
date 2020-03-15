@@ -13,7 +13,7 @@ This package implements the following functionalities:
 - **NumerosityReduction**: a filter for numerosity reduction of time series, which is an implementation of the "[Fast time series classification using numerosity reduction](https://dl.acm.org/doi/10.1145/1143844.1143974)" algorithm for Weka.
 
 
-## Citation
+# Citation
 
 If you use this tool, please cite the following paper:
 
@@ -21,7 +21,7 @@ If you use this tool, please cite the following paper:
 **César Soto Valero, Mabel González Castellanos**. Paquete para la clasificación de series temporales en Weka. In III Conferencia Internacional en Ciencias Computacionales e Informáticas (CICCI' 2016), La Havana, Cuba. [PDF](https://www.researchgate.net/publication/290379731_Paquete_para_la_clasificacion_de_series_temporales_en_Weka)
 
 
-## Installation 
+# Installation 
 
 To use the **timeseriesClassification** package, make sure you have installed Weka > 3.7.
 
@@ -37,11 +37,11 @@ tar timeSeriesClassification -C ~/wekafiles/packages
 
 After this, open Weka normally. The **timeseriesClassification** package will be automatically loaded and its features should be available through the GUI and CLI user interfaces provided by Weka.
 
-## Usage
+# Usage
 
 Here, we will rely on an example to illustrate how to use the **timeSeriesClassification** package to classify time series data. 
 
-### Classification example
+## Classification example
 
 Download the [ECG5000](http://www.timeseriesclassification.com/description.php?Dataset=ECG5000) dataset.
 
@@ -63,7 +63,7 @@ Now you can run the classifier with the **DTWDistance** function, you should obt
 
 BTW, the accuracy using 1NN with the Euclidean Distance instead of DTW for this dataset is 92.2444%.
 
-### Preprocess example
+## Preprocess example
 
 For using the **NumerosityReduction** filter. In the Weka explorer go to Choose > weka > filters > supervised >
 instance > **NumerosityReduction** and select the percentage of instances to be removed
