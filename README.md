@@ -11,7 +11,7 @@ This package implements the following functionalities:
 
 Visit the wiki for details about the [Installation](https://github.com/cesarsotovalero/timeSeriesClassification/wiki/Installation) and [Usage](https://github.com/cesarsotovalero/timeSeriesClassification/wiki/Usage) examples.
 
-## Citation
+# Citation
 
 If you use this tool, please cite the following paper:
 
