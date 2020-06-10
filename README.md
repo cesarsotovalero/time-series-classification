@@ -13,7 +13,19 @@ Visit the wiki for details about the [Installation](https://github.com/cesarsoto
 
 # Citation
 
-If you use this tool, please cite the following paper:
+If you use this tool, please cite the following [research paper](https://www.researchgate.net/publication/290379731_Paquete_para_la_clasificacion_de_series_temporales_en_Weka):
 
-
-**César Soto Valero, Mabel González Castellanos**. Paquete para la clasificación de series temporales en Weka. In III Conferencia Internacional en Ciencias Computacionales e Informáticas (CICCI' 2016), La Havana, Cuba. [PDF](https://www.researchgate.net/publication/290379731_Paquete_para_la_clasificacion_de_series_temporales_en_Weka)
+```
+@inproceedings{SotoValero2016,
+    author = {C\'esar Soto-Valero, Mabel Gonz\'alez Castellanos},
+    title = {Paquete para la clasificación de series temporales en Weka},
+    year = {2016},
+    publisher = {Ediciones Futuro},
+    address = {Cuba},
+    booktitle = {III Conferencia Internacional en Ciencias Computacionales e Informáticas},
+    pages = {1–13},
+    numpages = {13},
+    location = {La Havana, CU},
+    series = {CICCI' 2016}
+}
+```
