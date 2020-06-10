@@ -22,7 +22,7 @@ If you use this tool, please cite the following [research paper](https://www.res
     year = {2016},
     publisher = {Ediciones Futuro},
     address = {Cuba},
-    booktitle = {III Conferencia Internacional en Ciencias Computacionales e Informáticas},
+    booktitle = {III Conferencia Internacional en Ciencias Computacionales e Inform\'aticas},
     pages = {1–13},
     numpages = {13},
     location = {La Havana, CU},
